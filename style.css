@@ -1,0 +1,80 @@
+.text1 {
+    color: rgb(11, 10, 10);
+}
+
+body {
+    font-family: Arial, sans-serif;
+ 
+  }
+  
+  h1 {
+    color: #fcbf08;
+    margin-bottom: 30px;
+  }
+  
+  .store-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .store-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .store-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+  }
+  
+  .address {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .phone {
+    font-size: 16px;
+  }
+  
+  .btn-directions {
+    margin-top: 10px;
+  }
+
+  .container{
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 100%;
+        max-width: 1140px; 
+      }
+ 
+      h5 {
+        color: #141414;
+        font-size: larger;
+      }
+ 
+      .contact-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .contact-info .item {
+        width: 48%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-color: #fcbf08;
+        display: flex;
+        align-items: center;
+      }
+      .contact-info .item i {
+        margin-right: 10px;
+      }
+      .contact-info .item a {
+        text-decoration: none;
+        color: #faf9f9;
+      }
